@@ -1,0 +1,82 @@
+@media all and (min-width: 991px){
+	.menu ul{
+		display: flex !important;
+	}
+}
+@media all and (max-width: 991px) {
+	.menu ul{
+		flex-direction: column;
+		margin-top: 3rem;
+		display: none;
+	}
+	.menu-icon{
+		display: block;
+	}
+	.vedio iframe {
+		width: 360px;
+		height: 203px;
+	}
+	.client {
+		padding: 5rem 0;
+	}
+	.works-items {
+		column-count: 2;
+	}
+}
+@media all and (max-width: 768px) {
+	h1{
+		font-size: 3rem;
+	}
+	.banner-content {
+		text-align: center;
+	}
+	.hero-content a {
+		margin-top: 1rem;
+	}
+	.vedio {
+		margin-top: 3rem;
+	}
+	.hero-area {
+		padding: 5rem 0;
+	}
+	.transparent-content {
+		text-align: center;
+	}
+	.transparent {
+		padding: 5rem 0;
+	}
+	.transparent-imge {
+		margin-top: 3rem;
+	}
+	.table-single-item{
+		margin-top: 3rem;
+	}
+	.table-area {
+		padding: 5rem 0;
+	}
+	.works-items {
+		column-count: 1;
+	}
+	.footer-left{
+		justify-content: center;
+		flex-direction: column;
+	}
+	.footer-right{
+		justify-content: center;
+	}
+}
+@media all and (max-width:576px){
+	.vedio iframe {
+		width: 309px;
+		height: 169px;
+	}
+	.frank-chemoro{
+		flex-direction: column;
+	}
+	.twitter-logo{
+		flex-direction: column;
+	}
+}
+
+
+
